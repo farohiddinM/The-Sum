@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserat',  sans-serif;
+}
+nav{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #FAFAFA;
+    
+}
+.brand{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+   
+}
+.menu{
+    width:70% ;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+    background-color: #FAFAFA;
+   
+
+}
+
+ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    padding: 4px 5px;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.active{
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: flex-start;
+    padding: 0 10%;
+    background-color: #FAFAFA;
+
+}
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+
+}
+.text p{
+    width: 256px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #FAFAFA;
+    
+
+
+}
+.image{
+    width: 40%;
+    background-color: #FAFAFA;
+
+}
+footer{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 275px;
+    font-size: 15px;
+}
+footer .nav{
+display: flex;
+}
+.info{
+    font-size: 10px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    justify-content: flex-start;
+    padding: 5px;
+    text-transform: capitalize;
+
+}
+.nav ul li {
+    color: rgb(93, 93,93);
+    
+
+}
+.chap{
+    margin: 0px 25px 0px 15px;
+}
+.nav ul li:hover{
+    text-decoration:underline ;
+    color:#3F3D3D;
+    cursor: pointer;
+}
+.address{
+    text-align: end;
+    color: rgb(93, 93,93);
+    font-size: 13px;
+
+}
+
+
+/* contact htnl sahifani boshladik */
+
+.about-page{
+    width: 100%; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    background-color: #FAFAFA;
+
+
+}
+.contacts{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 5%;
+
+}
+.contacts h1{
+    width: 30%;
+    text-transform: uppercase;
+
+    font-size: 40px;
+}
+.contacts p{
+    width: 20%;
+    font-size: 15px;
+
+
+}
+.line{
+    width: 1px;
+    height: 50px;
+    border: 00.5px dotted black;
+    
+
+}
+.hr-line{
+    width: 60%;
+    height: 1px;
+    border: 0.5px dotted black;
+    margin: 20px 0;
+    margin-right: 10%;
+    
+}
+.contact-form{
+    width: 80%;
+    height: 600px;
+    display: flex;
+
+}
+.contact-form h1{
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+form{
+    width: 70%;
+    
+    
+
+}
+form .info-form h4{
+    font-size: 20px;
+   
+
+}
+.info-form{
+    width: 490px;
+    padding: 50px 5px;
+}
+.form{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    background-color: #F1F1F1;
+}
+.form input{
+    padding: 5px 10px;
+
+}
+.form textarea{
+    padding: 5px 10px;
+
+}
+.form label{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 5px 5px 0 0;
+}
+form button{
+    border: 0.5px solid black;
+    padding: 4px 6px;
+    background-color: rgb(44, 44, 44);
+    color: #fff;
+    cursor: pointer;
+}
+form button:hover{
+    background-color:#fff;
+    color: black;
+
+
+}
+.form input:focus, textarea:focus{
+    background-color: rgb(93, 93,93);
+    color: skyblue;
+}
+
+
+/* blog sahifamizni boshladik */
+
+.blog{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FAFAFA;
+
+}
+.feed-section{
+    width: 25%;
+}
+
+.topics{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.topics .info{
+    height: 70px;
+}
+
+.topics .info h1{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.topics .topic{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.topic a{
+    text-decoration: none;
+    padding: 3px 0;
+    color: rgb(93, 93,93);
+}
+
+.topic a:hover{
+    text-decoration: underline;
+}
+
+.topic p{
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.topic i{
+    padding: 0 3px;
+}
+
+.line-blog{
+    width: 90%;
+    height: 1px;
+    border: 0.5px dotted bleck;
+    margin-bottom: 30px;
+
+}
+
+.tweets{
+    width: 90%;
+}
+
+.tweets h1{
+    margin-bottom: 20px;
+    text-transform: lowercase !important;
+}
+.tweets p{
+    font-size: 13px;
+}
+.tweets a{
+    background-color:#fff;
+    color: gray;
+}
+
+/* Post section boshlandi */
+
+.post-section{
+    width: 45%;
+    color: rgb(93, 93,93);
+    padding: 0px 90px 0px 10px;
+}
+
+.post-section h1:nth-child(1){
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.post-section h1:nth-child(2){
+    margin-bottom: 20px;
+}
+
+.post-section p{
+    padding: 0px 0px 7px 0;
+}
+
+.post-section img{
+    width: 98%;
+}
+
+.post-section p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post-section a{
+    background-color: #fff;
+    color: grey;
+}
+
+/* about sahifamizni boshladik. */
+
+.about{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px 97px 0px 70px;
+}
+
+.about-tex{
+    width: 72%;
+    height: 30px;
+    padding: 5px 0px;
+    display: block;
+
+}
+
+.about-p{
+    width: 53%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+.about-p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
